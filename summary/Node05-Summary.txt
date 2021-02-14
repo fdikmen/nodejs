@@ -1,0 +1,15 @@
+02/14 A. Summary & node-snippets with sample
+02/14 B. Pug (npm i pug) |vs-faker snippet | Views-app.set('view engine','pug')
+02/14 C. Send parameter to PUG file -> =paramName or #{paramName}
+02/14 D. PUG: Include | Comment Lines:// or //-
+02/14 E. Variable in Pug File (- var number=10;) | if-else/unless | Iteration while-each
+02/14 F. Layout & Block Structure in PUG | block,extends,block append
+02/14 G. Define Static Folder in ExpressJS
+
+npm init -y ->create package.json
+
+
+
+
+
+
