@@ -1,0 +1,18 @@
+02/18 A. Routing with Express & Postman
+02/18 B. Url Char (? Optional,* Any Text,+ Plus)
+02/18 C. GET/POST/DELETE/PUT & ALL in ExpressJS
+02/18 D. Send Param with URL in ExpressJS Get Method
+https://domainname.com/user/4
+02/18 E. Router Object in ExpressJS
+02/19 F. Middlewares with ExpressJS
+Request -------------------> Response
+
+Request ---> Middleware ---> Response
+
+Request ---> Middleware ---> Response
+M_Response<----MMM--->Next()->Response
+
+
+
+
+
