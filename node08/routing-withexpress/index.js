@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+app.set('view engine','pug');
+
 
 /*app.use('/about',(req,middleRes,next)=>{
     const isAuthorized = false;
@@ -27,7 +29,10 @@ app.use('/',about)
 const user = require('./routers/user')
 app.use('/',user)
 
-
+app.use((err,req,res,next)=>{
+    res.status(err.status);
+    res.render('error.pug',{message:err.message,status:err.status})
+})
 
 
 app.listen(port, () => console.log(`Example app listening on port port!`))
