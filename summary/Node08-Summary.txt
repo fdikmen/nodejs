@@ -1,0 +1,9 @@
+02/21 A. Summary & Create A Database With Robo3t
+02/21 B. Connection to Database in NodeJS (Mongoose)
+02/21 C. Create Collections with NodeJS & Send data to MongoDB
+02/21 D. Mongoose Create Schema Data Types
+02/21 E. Scheme Data Type Keywords:Type,Default,Required,Uniqe
+02/21 F. Mongoose Query:Find<FindOne<FindById
+CRUD->Create-Read-Update-Delete
+ 
+

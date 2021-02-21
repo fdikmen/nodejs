@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 02/13 A. Summary & Routing
 02/13 B. Streams (createReadStream) & Progress Bar |fs.stat & Streams (createWriteStream) with Pipe
 02/13 C. Summary & Performance (Stream vs without Stream)
@@ -18,3 +19,25 @@ result=100*progress/totalLength
 
 
 
+=======
+02/13 A. Summary & Routing
+02/13 B. Streams (createReadStream) & Progress Bar |fs.stat & Streams (createWriteStream) with Pipe
+02/13 C. Summary & Performance (Stream vs without Stream)
+02/13 D. ExpressJS & Hello Express App
+
+let progress = 0;
+totalLength=456mb;
+
+progress += chunk.length;
+
+result=100*progress/totalLength
+
+
+%100 --------> total
+% ?  --------> progress
+
+
+
+
+
+>>>>>>> 83c4380886b16c2ca168d09c7313658e1813b636

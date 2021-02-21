@@ -7,6 +7,22 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var newsRouter = require('./routes/news');
+<<<<<<< HEAD
+var postsRouter = require('./routes/post.routes');
+
+const mongoose = require("mongoose");
+mongoose.connect("mongodb://localhost:27017/lessonDB", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex:true
+})
+  /*.then(()=>{console.log("MongoDB connection success.")})
+  .catch((err)=>{console.log("MongoDB connection failed. Detail:",err)});*/
+  mongoose.connection.on('open',()=>{console.log("MongoDB connection success.")});
+  mongoose.connection.on('error',(err)=>{console.log("MongoDB connection failed. Detail:",err)});
+
+=======
+>>>>>>> 83c4380886b16c2ca168d09c7313658e1813b636
 
 var app = express();
 
@@ -23,6 +39,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/news',newsRouter);
+<<<<<<< HEAD
+app.use('/posts',postsRouter);
+=======
+>>>>>>> 83c4380886b16c2ca168d09c7313658e1813b636
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
