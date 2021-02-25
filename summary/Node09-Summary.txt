@@ -1,0 +1,14 @@
+02/25 A. Summary & Save data to database from post.body
+post method --> req.body
+get  method --> req.params
+
+02/25 B. UpdateMany | UpdateOne | findByIdAndUpdate(return oldData)
+
+02/25 C. DeleteMany | DeleteOne | findByIdAndRemove | findByIdAndDelete
+CRUD -> Create Read Update Delete
+
+02/25 D. Update From post.Body
+
+02/25 E. Sort | Limit | Skip
+
+...skip(40).limit(10)
