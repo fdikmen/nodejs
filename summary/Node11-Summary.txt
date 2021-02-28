@@ -1,0 +1,4 @@
+02/28 A. mongoDB Atlas
+02/28 B. Project (Create Project & Connect To ServerDB)
+02/28 C. Project (Create Movie Collection & Movie Routes)
+02/28 D. Project (Create Director Collection & DirectorRoutes)
