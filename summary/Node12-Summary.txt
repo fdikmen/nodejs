@@ -1,0 +1,5 @@
+03/07 A.MovieApp API Project -2
+03/07 B.Git Commit
+03/07 C.JWT Json Web Token-1 (/User/Register Endpoint)
+03/07 D.JWT Json Web Token-2 (Hashing data with Bcrypt)
+03/07 E.JWT Json Web Token-3 (What is JWT? & Create Token)
