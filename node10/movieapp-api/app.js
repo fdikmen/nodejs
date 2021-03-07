@@ -18,6 +18,9 @@ app.set('api_secret_key',config.api_secret_key)
 //db connect
 const db = require("./helpers/db")();
 
+//Token Middleware
+const verifyToken = require('./middlewares/verifyToken')
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
@@ -30,6 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/api',verifyToken);
 app.use('/api/movies', moviesRouter);
 app.use('/api/directors', directorsRouter);
 
